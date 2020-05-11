@@ -4,6 +4,8 @@ use_frameworks!
 
 def architecture
   pod 'RxSwift', '5.1.0'
+  
+  pod 'Alamofire', '5.0.4'
 end
 
 target 'covid-app' do
